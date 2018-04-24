@@ -1,0 +1,79 @@
+{
+  "clients": {
+    "Gwsh": {
+      "platforms": {
+        "linux": {
+          "x64": {
+            "download": {
+              "url": "https://bintray.com/artifact/download/karalabe/wiseplat/gwsh-1.4.12-stable-421df86-linux-amd64.tar.bz2",
+              "type": "tar"
+            },
+            "bin": "gwsh",
+            "commands": {
+              "sanity": {
+                "args": ["version"],
+                "output": [ "Gwsh" ]
+              }                
+            }
+          },
+          "ia32": {
+            "download": {
+              "url": "https://bintray.com/artifact/download/karalabe/wiseplat/gwsh-1.4.12-stable-421df86-linux-386.tar.bz2",
+              "type": "tar"
+            },
+            "bin": "gwsh",
+            "commands": {
+              "sanity": {
+                "args": ["version"],
+                "output": [ "Gwsh" ]
+              }                
+            }
+          }
+        },
+        "mac": {
+          "x64": {
+            "download": {
+              "url": "https://bintray.com/artifact/download/karalabe/wiseplat/gwsh-1.4.12-stable-421df86-darwin-10.6-amd64.tar.bz2",
+              "type": "tar"
+            },
+            "bin": "gwsh",
+            "commands": {
+              "sanity": {
+                "args": ["version"],
+                "output": [ "Gwsh" ]
+              }                
+            }
+          }
+        },
+        "win": {
+          "x64": {
+            "download": {
+              "url": "https://github.com/wiseplat/go-wiseplat/releases/download/v1.4.11/Gwsh-Win64-20160818153642-1.4.11-fed692f.zip",
+              "type": "zip"
+            },
+            "bin": "gwsh.exe",
+            "commands": {
+              "sanity": {
+                "args": ["version"],
+                "output": [ "Gwsh" ]
+              }                
+            }
+          },
+          "ia32": {
+            "download": {
+              "url": "https://bintray.com/artifact/download/karalabe/wiseplat/gwsh-1.4.12-stable-421df86-windows-4.0-386.exe.zip",
+              "type": "zip"
+            },
+            "bin": "gwsh.exe",
+            "commands": {
+              "sanity": {
+                "args": ["version"],
+                "output": [ "Gwsh" ]
+              }                
+            }
+          }            
+        }
+      }
+    }
+  }
+}
